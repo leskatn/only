@@ -84,6 +84,9 @@ a:hover {
 
     .block {
         width: 100%;
+    }
+
+    .block:not(:last-child) {
         margin-bottom: 20px;
     }
 }
